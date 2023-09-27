@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgba(251, 237, 218, 1);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header__general {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  padding: 3%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Serif", serif;
+}
+
+.SignIn {
+  width: 120px;
+  height: 50px;
+  background: rgba(19, 166, 186, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.SignIn p {
+  color: white;
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
+  line-height: 29px;
+}
