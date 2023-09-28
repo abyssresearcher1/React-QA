@@ -32,12 +32,20 @@ h1 {
 
 .HomeSearch {
   display: flex;
-  max-width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  max-width: 68%;
+  height: 200px;
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 20px;
 }
 
 .HomeSearchNav {
   display: flex;
-  gap: 86px;
+  gap: 70px;
+  margin-left: 9%;
 }
 
 .HomeSearchNav h3 {
@@ -47,4 +55,37 @@ h1 {
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.HomeSearchAny {
+  display: flex;
+  gap: 50px;
+  margin-left: 11%;
+}
+
+.desciption {
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Search {
+  background: rgba(19, 166, 186, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 18px;
+  width: 150px;
+  color: white;
+  font-family: Noto Serif;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.HomeSearchLine {
+  width: 100%;
 }
