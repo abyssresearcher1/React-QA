@@ -88,3 +88,26 @@
   display: flex;
   gap: 40px;
 }
+
+@media screen and (max-width: 992px) {
+  .footerContacts {
+    gap: 52px;
+    flex-wrap: wrap;
+  }
+
+  .footerGeneral {
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footerGeneral {
+    gap: 90px;
+  }
+}

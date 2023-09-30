@@ -114,8 +114,56 @@ h1 {
   width: 100%;
 }
 
-@media screen and (max-width: 1200px){
-  .MainHomeSearchAny{
-        gap: 2%;
+@media screen and (max-width: 1200px) {
+  .MainHomeSearchAny {
+    gap: 2%;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .Search {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Search {
+    padding: 5px;
+  }
+
+  .description {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 47px;
+    line-height: 68px;
+  }
+
+  .Search {
+    padding: 0;
+    height: 46px;
+    width: 78px;
+    line-height: 44px;
+  }
+
+  .HomeSearch {
+    height: 165px;
+  }
+
+  .HomeSearchAny {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HomeSearch {
+    display: none;
+  }
+
+  main {
+    padding-top: 0%;
   }
 }
