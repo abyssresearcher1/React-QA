@@ -37,6 +37,7 @@ const Propertys = () => {
           onChange={(event) => {
             setHouse(event.target.value);
           }}
+          className="search__input"
         />
       </div>
       {filteredHouses.map((item) => {
@@ -51,7 +52,10 @@ const Propertys = () => {
                 <p className="Card__location"> {item.location}</p>
                 <h2> $ {item.cost}</h2>
                 <p className="Card__rooms"> {item.rooms}</p>
-                <Link to="/HomeDetails" className="Card__detailsBtn">
+                <Link
+                  to={`/homeDetails/${item.id}`}
+                  className="Card__detailsBtn"
+                >
                   See Details
                 </Link>
               </div>

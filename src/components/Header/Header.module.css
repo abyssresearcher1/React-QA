@@ -16,12 +16,14 @@
   gap: 100%;
   justify-content: center;
   padding: 3%;
+  flex-wrap: wrap;
 }
 
 .nav {
   display: flex;
   align-items: center;
   gap: 80px;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -29,6 +31,7 @@
   text-decoration: none;
   color: black;
   font-family: "Noto Serif", serif;
+  flex-wrap: wrap;
 }
 
 .SignIn {

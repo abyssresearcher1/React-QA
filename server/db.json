@@ -47,6 +47,14 @@
       "cost": 8500000,
       "location": "Miami Beach",
       "rooms": "7 bedrooms| 8 baths| 8,500 sqft"
+    },
+    {
+      "id": 6,
+      "name": "Seaside Mansion",
+      "img": "https://w0.peakpx.com/wallpaper/124/270/HD-wallpaper-wealth-house-architecture-wealth-houses-love-four-seasons-home-attractions-in-dreams-palm-trees-graphy-exterior-garden-beautiful-houses-luxury.jpg",
+      "cost": 8500000,
+      "location": "Miami Beach",
+      "rooms": "7 bedrooms| 8 baths| 8,500 sqft"
     }
   ]
 }

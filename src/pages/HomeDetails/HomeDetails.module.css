@@ -1,0 +1,34 @@
+.HomeDetails {
+  padding: 3%;
+}
+
+.homeDetailsGeneral {
+  display: flex;
+}
+
+.homeDetailsName {
+  font-family: Noto Serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.homeDetailsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.HomeDetailsDescription {
+  text-align: center;
+}
+
+.HomeDetailsImage {
+  -webkit-box-shadow: -33px -2px 15px 44px rgba(166, 166, 162, 0.46);
+  -moz-box-shadow: -33px -2px 15px 44px rgba(166, 166, 162, 0.46);
+  box-shadow: -33px -2px 15px 44px rgba(166, 166, 162, 0.46);
+}

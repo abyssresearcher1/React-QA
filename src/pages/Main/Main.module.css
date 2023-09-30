@@ -82,7 +82,7 @@ h1 {
 
 .HomeSearchAny {
   display: flex;
-  gap: 50px;
+  gap: 4%;
   margin-left: 11%;
 }
 
@@ -112,4 +112,10 @@ h1 {
 
 .HomeSearchLine {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+  .MainHomeSearchAny{
+        gap: 2%;
+  }
 }
