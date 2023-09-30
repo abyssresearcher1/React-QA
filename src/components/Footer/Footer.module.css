@@ -1,0 +1,90 @@
+.footer {
+  background-color: rgba(253, 246, 237, 1);
+  padding: 5%;
+}
+
+.footerGeneral {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 50px;
+  width: 20%;
+}
+
+.footerContacts {
+  display: flex;
+  gap: 150px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.products span {
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company span {
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.company a {
+  text-decoration: none;
+  color: black;
+}
+
+.findHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.findHome span {
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.findHome p {
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footericons {
+  display: flex;
+  gap: 40px;
+}

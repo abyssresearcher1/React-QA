@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Main.module.css";
 import mainImage from "../../assets/MainHouseImage.png";
 import Layout from "../../Layout/Layout";
+import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Main = () => {
+  const [data, setData] = useState([]);
+
+  const getHouses = async () => {
+    try {
+      const { data } = await axios.get(
+        `${process.env.REACT_APP_MAIN_URL}/houses`
+      );
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getHouses();
+  }, []);
+
   return (
     <Layout>
       <main className={styles.main}>
@@ -20,18 +39,18 @@ const Main = () => {
             </div>
             <div className={styles.HomeSearch}>
               <div className={styles.HomeSearchNav}>
-                <h3>Rent</h3>
-                <h3>Buy</h3>
-                <h3>Sell</h3>
+                <button className={styles.HomeSearchRentBtn}>Rent</button>
+                <button className={styles.HomeSearchBuyBtn}>Buy</button>
+                <button className={styles.HomeSearchSellBtn}>Sell</button>
               </div>
               <hr className={styles.HomeSearchLine} />
               <div className={styles.HomeSearchAny}>
-                <p className={styles.desciption}>Los Angeles</p>
+                <p className={styles.description}>Los Angeles</p>
                 <hr />
-                <p className={styles.desciption}>Delux</p>
+                <p className={styles.description}>Delux</p>
                 <hr />
-                <p className={styles.desciption}>$7000-8000</p>
-                <button className={styles.Search}>Search</button>
+                <p className={styles.description}>$7000-8000</p>
+                <Link to="/propertys" className={styles.Search} >Search</Link>
               </div>
             </div>
             <div className={styles.mainImage}>

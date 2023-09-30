@@ -1,0 +1,69 @@
+.search__block {
+  float: right;
+  padding-right: 5%;
+  background: rgba(253, 246, 237, 1);
+}
+
+.Card {
+  padding: 50px;
+  max-width: 100%;
+  background: rgba(253, 246, 237, 1);
+}
+
+.Card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Card__info span {
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Card__location {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Card__rooms {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Card__image {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 20px;
+}
+
+.Card__detailsBtn {
+  background: rgba(19, 166, 186, 1);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}

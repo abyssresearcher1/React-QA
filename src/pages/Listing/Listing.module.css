@@ -1,0 +1,135 @@
+.listing {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.listingInfo {
+  padding-top: 10%;
+  width: 50%;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.listingInfo h2 {
+  margin: 0;
+}
+
+.listingInfoParagraph {
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.listingInfoDescription {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+}
+
+.listingInfoDescription p {
+  font-family: Noto Serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.listingInfo h2 {
+  font-family: Noto Serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.listingCardImageBlock {
+  position: relative;
+  width: 50%;
+}
+
+.listingCardIamge {
+  width: 100%;
+}
+
+.listingCardMini {
+  position: absolute;
+  top: 65%;
+  left: -7%;
+  width: 40%;
+}
+
+.listingCardGoogle {
+  position: absolute;
+  width: 20%;
+  top: 10%;
+  left: 80%;
+}
+
+.review {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  background: rgba(253, 246, 237, 1);
+}
+
+.customer {
+  width: 50%;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.customer img {
+  width: 80%;
+}
+
+.customerReview {
+  width: 50%;
+}
+
+.customerReview h3 {
+  color: rgba(19, 166, 186, 1);
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.445em;
+  text-align: left;
+}
+
+.CustomerInfo h2 {
+  font-family: Noto Serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.CustomerInfo p {
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.customerReviewAutor p {
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}

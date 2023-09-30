@@ -1,3 +1,52 @@
 {
-    
+  "houses": [
+    {
+      "id": 1,
+      "name": "Elegant Estate",
+      "img": "https://w0.peakpx.com/wallpaper/295/694/HD-wallpaper-house-of-luxury-luxury-home-luxury-house-luxurious-house.jpg",
+      "cost": 7500000,
+      "location": "Bel Air",
+      "rooms": "6 bedrooms| 7 baths| 7,500 sqft"
+    },
+    {
+      "id": 2,
+      "name": "Oceanfront Oasis",
+      "img": "https://w0.peakpx.com/wallpaper/168/912/HD-wallpaper-house-of-wealth-luxury-home-wealth-luxury-house-luxurious-home.jpg",
+      "cost": 6000000,
+      "location": "Malibu",
+      "rooms": "5 bedrooms| 6 baths| 6,000 sqft"
+    },
+    {
+      "id": 3,
+      "name": "Luxury Lakeside Villa",
+      "img": "https://w0.peakpx.com/wallpaper/603/1009/HD-wallpaper-modern-home-design-exterior-gray-brick-walls-modern-country-house-house-project.jpg",
+      "cost": 4500000,
+      "location": "Lake Tahoe",
+      "rooms": "4 bedrooms| 5 baths| 4,500 sqft"
+    },
+    {
+      "id": 4,
+      "name": "City View Penthouse",
+      "img": "https://w0.peakpx.com/wallpaper/294/377/HD-wallpaper-luxury-house-modern-architecture-others.jpg",
+      "cost": 3000000,
+      "location": "New York City",
+      "rooms": "3 bedrooms| 3 baths| 2,500 sqft"
+    },
+    {
+      "id": 5,
+      "name": "Mountain Retreat",
+      "img": "https://w0.peakpx.com/wallpaper/473/606/HD-wallpaper-home-sweet-home-luxury-home-beautiful-house-home-beautiful-home.jpg",
+      "cost": 2800000,
+      "location": "Aspen",
+      "rooms": "4 bedrooms| 5 baths| 4,000 sqft"
+    },
+    {
+      "id": 6,
+      "name": "Seaside Mansion",
+      "img": "https://w0.peakpx.com/wallpaper/124/270/HD-wallpaper-wealth-house-architecture-wealth-houses-love-four-seasons-home-attractions-in-dreams-palm-trees-graphy-exterior-garden-beautiful-houses-luxury.jpg",
+      "cost": 8500000,
+      "location": "Miami Beach",
+      "rooms": "7 bedrooms| 8 baths| 8,500 sqft"
+    }
+  ]
 }

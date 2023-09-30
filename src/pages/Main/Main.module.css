@@ -5,6 +5,10 @@ main {
   background: rgba(251, 237, 218, 1);
 }
 
+* {
+  margin: 0;
+}
+
 h1 {
   font-family: Noto Serif;
   font-size: 70px;
@@ -40,6 +44,7 @@ h1 {
   background-color: white;
   margin-top: 5%;
   border-radius: 20px;
+  margin-left: 15%;
 }
 
 .HomeSearchNav {
@@ -48,7 +53,25 @@ h1 {
   margin-left: 9%;
 }
 
-.HomeSearchNav h3 {
+.HomeSearchRentBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.HomeSearchSellBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.HomeSearchBuyBtn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.HomeSearchNav button {
   font-family: Noto Serif;
   font-size: 26px;
   font-weight: 400;
@@ -63,7 +86,7 @@ h1 {
   margin-left: 11%;
 }
 
-.desciption {
+.description {
   font-family: Noto Serif;
   font-size: 30px;
   font-weight: 600;
@@ -84,6 +107,7 @@ h1 {
   line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
+  text-decoration: none;
 }
 
 .HomeSearchLine {

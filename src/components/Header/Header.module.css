@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 
-* {
-  padding: 0;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
 .header {
   background: rgba(251, 237, 218, 1);
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -16,8 +12,9 @@
 
 .header__general {
   display: flex;
-  justify-content: space-between;
-  gap: 300px;
+  align-items: center;
+  gap: 100%;
+  justify-content: center;
   padding: 3%;
 }
 
@@ -25,6 +22,7 @@
   display: flex;
   align-items: center;
   gap: 80px;
+  justify-content: center;
 }
 
 .nav__links {
